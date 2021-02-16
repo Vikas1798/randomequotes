@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.outer{
+    width: 100vw;
+    height: 100%;
+    color: orchid;
+}
+#container{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 50vh;
+    width: 70vw;
+    text-align: center; 
+    margin-top: 100px;
+    background-image:linear-gradient(to right, blue ,gray);
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+    border-color: slategray;
+}
+
+
+p{
+    font-family: sans-serif;
+}
+p:hover{
+    color: thistle;
+}
+.btn1{
+    color: rgb(12, 11, 9);
+    background-color: rgb(161, 187, 196);
+    padding: 5px;
+    float: left;
+    margin-left: 100px;
+}
+.btn2{
+    color: rgb(12, 11, 9);
+    background-color: rgb(161, 187, 196);
+    padding: 5px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+h1{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    letter-spacing: 2px;
+    
+}
+button{
+    box-shadow: 10px 10px 5px gray;
+    border-radius: 10px;
+}
+.btn1:hover{
+    background-color: orange;
+    cursor: pointer;
+    /* color: thistle; */
+}
+.btn2:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+#authorOutput{
+    color: yellow;
+   
+}
+#quoteOutput{
+    color: rgb(5, 202, 87);
+   
+}
+#author2Output{
+    color: yellow;
+    padding-left: 10px;
+}
+#quote2Output{
+    color:  rgb(5, 202, 87);
+}
+.footer{
+    float: left;
+	padding-bottom: 10px;
+	padding-top: 100px;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
+    font-style: italic;
+    letter-spacing: 2px;
+    color: skyblue;
+
+}
